@@ -1,4 +1,4 @@
 # Python code to display text 
 print("Hello World !" ) 
 # result = Hello World ! 
-''' print function print give. texts to the termimal '''
+''' print function print given texts to the terminal '''
