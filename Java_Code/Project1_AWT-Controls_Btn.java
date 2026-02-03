@@ -27,35 +27,35 @@ public class SubjectDetails extends Frame {
             public void actionPerformed(ActionEvent e) {
                 labelDetails.setText(
                         "Class-1 , Time-9AM to 10AM , Topics Covered-Arrays ");
-            }
+          }
         });
         btnEnglish.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                labelDetails.setText("Class-2 ,Time-10AM to 11AM , Topics Covered:Unit-2 ");
+                labelDetails.setText("Class-2 , Time-10AM to 11AM , Topics Covered-Unit-2 ");
             }
         });
         btnKannada.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                labelDetails.setText("Class-3  , Time-12PM to 1PM , Topics Covered:Unit-1");
+                labelDetails.setText("Class-3  , Time-12PM to 1PM , Topics Covered-Unit-1 ");
             }
         });
         btnPHP.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                labelDetails.setText("Class-4,Time-2 PM to 3 PM , Topics Covered:Installation ");
+                labelDetails.setText("Class-4, Time-2PM to 3PM , Topics Covered-Installation and Configuration ");
             }
         });
         btnCN.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                labelDetails.setText("Class-5 , Time-3 PM to 4 PM , Topics Covered:Topology  ");
+                labelDetails.setText("Class-5 , Time-3 PM to 4 PM , Topics Covered- Topology and its Types ");
             }
         });
         btnOK.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                labelDetails.setText("Be on time!! , See you in class ");
+                labelDetails.setText("Be on time !! , See you in class ");
                 System.exit(0);
             }
         });
