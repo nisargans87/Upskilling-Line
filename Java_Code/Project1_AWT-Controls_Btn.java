@@ -30,8 +30,7 @@ public class SubjectDetails extends Frame {
           }
         });
         btnEnglish.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+             public void actionPerformed(ActionEvent e) {
                 labelDetails.setText("Class-2 , Time-10AM to 11AM , Topics Covered-Unit-2 ");
             }
         });
@@ -41,26 +40,22 @@ public class SubjectDetails extends Frame {
             }
         });
         btnPHP.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        public void actionPerformed(ActionEvent e) {
                 labelDetails.setText("Class-4, Time-2PM to 3PM , Topics Covered-Installation and Configuration ");
             }
         });
         btnCN.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
                 labelDetails.setText("Class-5 , Time-3 PM to 4 PM , Topics Covered- Topology and its Types ");
             }
         });
         btnOK.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
                 labelDetails.setText("Be on time !! , See you in class ");
                 System.exit(0);
             }
         });
         addWindowListener(new WindowAdapter() {
-            @Override
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
             }
