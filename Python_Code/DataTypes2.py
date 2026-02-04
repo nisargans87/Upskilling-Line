@@ -31,7 +31,7 @@ f = [ 2,3,4,5,6]
 print(f)
 print(type(f))
 # prints datatype of the f variable
-g = { 12.4,23.5,11.5)
+g = { 12.4,23.5,11.5}
 print(g)
 print(type(g))
 # prints datatype of the g variable
