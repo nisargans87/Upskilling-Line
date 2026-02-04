@@ -3,7 +3,7 @@
 class Main {
     public static void main(String[] args) {
         int rat_population = 24;
-        if(rat_population >=  20){
+        if(rat_population >= 20){
         System.out.println("Check out ! Population is increasing ");
     }
 }
