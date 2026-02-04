@@ -1,1 +1,9 @@
-Running a Project1 file code 
+
+
+
+
+
+Error Case Study 
+This Project1 code will throw an error , if it is ran in the following environment 
+1. Mobile Online Applications which has the interpreter. Since Mobile's Operating System is ios and Android it cant handle the AWT operations i.e events .
+2. Operating System which doesn't support Windows Application or Environment to do events through peripheral devices i.e Mouse and Keyboard 
