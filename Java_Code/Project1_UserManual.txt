@@ -1,9 +1,55 @@
+Error Raised - 
+Exception in thread "main" java.awt.HeadlessException:
+No X11 DISPLAY variable was set,
+but this program performed an operation which requires it.
+at java.desktop/java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:165)
+at java.desktop/java.awt.Window.<init>(Window.java:540)
+at java.desktop/java.awt.Frame.<init>(Frame.java:423)
+at java.desktop/java.awt.Frame.<init>(Frame.java:388)
+at SubjectDetails.<init>(Main.java:4)
+at SubjectDetails.main(Main.java:71)
 
 
+How i discover this ? 
+1. With the reference of my Lab Manual , i learnt about the "Event Handling" and "AWT" through the program .
+2. I applied my understanding in the form of this code 
+3. Ran the program in the system which has the Windows 11  Operating System 
+4. Debugging in some stages leads to finished working module 
+5. Copied the code from Subject_Details.java file 
+6. Ran in the online interpreter 
+7. Throws the error 
+8. Started to think how to debug and then found the reasons .
+9. Now , more understanding will leads to better Applications.
 
 
-
-Error Case Study 
-This Project1 code will throw an error , if it is ran in the following environment 
+Error Case Study -
+This Project1 code will throw an  error , if it is ran in the following environment 
 1. Mobile Online Applications which has the interpreter. Since Mobile's Operating System is ios and Android it cant handle the AWT operations i.e events .
-2. Operating System which doesn't support Windows Application or Environment to do events through peripheral devices i.e Mouse and Keyboard 
+2. Operating System which doesn't support Windows GUI Applications or Environment to do events through peripheral devices i.e Mouse and Keyboard .
+
+
+Way i have choosen to debug - 
+If i given above code to check and debug in chatgpt, it explains the following reasons 
+""You are running the program in a headless environment
+Example:
+Online compiler
+Terminal without GUI
+Server / cloud / Replit / CodeRunner
+AWT needs a graphical screen, mouse, window system (X11)
+ AWT cannot run without a GUI display""
+""Works perfectly on:
+Windows
+Linux (with desktop)
+macOS""
+"" If you want it to run ANYWHERE (online)
+Rewrite using console-based Java code ""
+
+
+Outcome is  - 
+1. Java is platform-independent, but GUI environments are not.
+2. Platform independence means “Write Once, Run Anywhere with JVM support”, not “Run everywhere without system requirements.
+3. AWT depends on native GUI systems (like Windows Desktop, Linux X11, macOS graphics). If a system has no display (headless server), GUI programs cannot run even though Java itself is portable.
+4. The JVM can execute your logic on any platform, but hardware features like screen, mouse, or graphics must still be provided by the OS.
+5. An error raised is not a Java limitation; it is an environment limitation. The same code runs perfectly on any OS that has a graphical display.
+***Java is platform-independent, but GUI libraries like AWT require a graphical environment; therefore portability depends on both the JVM and the availability of system resources such as a display server***
+
