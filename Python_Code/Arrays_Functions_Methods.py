@@ -1,4 +1,4 @@
-array creation using lists 
+# array creation using lists 
 array = [22,33,44,55]
 print(array)
 print(array[1])
@@ -26,6 +26,9 @@ print("From two arrays:" , array[2:3] ,array1[0:3])
 array3=["Nisarga" , 21 ,"Computer Science" , 9.26 , True ]
 print(array3)
 print(array3[2]) #Computer Science 
+
+
+#array creation using 
 
 
 
