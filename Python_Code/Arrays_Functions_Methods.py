@@ -17,9 +17,13 @@ print(array1[0:3])
 array2={13,14,15,16}
 print(array2)
 print(array2[2])
+print("From two arrays:" , array[2] ,array1[3])
+print("From two arrays:" , array[2:3] ,array1[0:3])
 # statements ends here 
 # "Arrays can be created using tuples and lists but not with sets ". Find out the reasons . 
 # This program is used to creation of an arrays using lists and tuples and also case study about sets 
+
+
 
 
 
