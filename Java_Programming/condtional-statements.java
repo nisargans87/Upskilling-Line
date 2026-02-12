@@ -1,4 +1,4 @@
-// Use any editor to run but in text editor file name and class name matters 
+// Use any editor to run but in text editor file name and class name should be same 
 //  simple if statement demonstration 
 import.java.util.Scanner;
 class population {
@@ -10,6 +10,8 @@ class population {
 }
   }
 // code ends here 
+
+
 
 // User given input for simple if 
 import java.util.Scanner ;
