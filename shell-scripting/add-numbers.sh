@@ -1,4 +1,4 @@
-# Shell Script to print sum of assigned values 
+# Shell Script to print sum of assigned values to variables 
 #!/bin/bash
 # Assign values
 num1=25
