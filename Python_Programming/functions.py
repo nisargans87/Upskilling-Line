@@ -5,10 +5,13 @@ def FunctionCreation():
 FunctionCreation()
 # indentation matters here too  
 ''' Output - Learnt , Applied and now Learning ! '''
+
+
 def FunctionCreation():
     print("Learnt , Applied and now Learning ! ")
     FunctionCreation()
-  ''' Displays Blank Screen '''
+  ''' Displays Blank Screen because due to improper indentation '''
+
 
 # Simple Function usage  2
 def A():
@@ -17,6 +20,7 @@ def A():
 A()
 ''' Output - First  Letter of the Alphabet is  <function A at 0x7904114bc220>
 <class 'function'> 133058377007648 '''
+
 
 
 # Simple function usage 3
@@ -28,7 +32,8 @@ def NumberCheck ():
         print("The number is odd i.e", num)
         print(type(num),type(NumberCheck),type(print),type(input))
 NumberCheck()
-''' Output - '''
+
+
 
 # Simple function usage 4 
 def ListCheck ():
