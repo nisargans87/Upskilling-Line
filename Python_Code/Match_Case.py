@@ -3,10 +3,10 @@
 
 enter_email=str(input("Enter your registered email id --  "))
 enter_password = str(input("Enter password -- "))
-set_password = "nisarga"
+set_password = "qrty65₹N"
 set_email = "nisargans011@gmail.com"
 match enter_password , enter_email :
-    case  "nisarga","nisargans011@gmail.com" :
+    case  "qrty65₹N","nisargans011@gmail.com" :
         print("Login Successfully !")
     case _ :
         print(" Invalid Password or email !, Try Again ")
