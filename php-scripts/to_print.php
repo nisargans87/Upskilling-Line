@@ -1,4 +1,4 @@
 <?php
   echo "Nisarga" ;
 ?>
-// Prints "Nisarga"
+// Prints Nisarga
